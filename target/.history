@@ -2,3 +2,4 @@ container:start
 containter:start
 container:start
 eclipse
+~; container:start; container:reload /

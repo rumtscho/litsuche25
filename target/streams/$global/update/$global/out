@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/rumtscho/git/Tervel3/}tervel3...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/rumtscho/git/litsuche25/}litsuche25...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b51a1a[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@176eea3e[0m
 [0m[[0mdebug[0m] [0m		tried /home/rumtscho/.ivy2/local/org.scala-lang/scala-library/2.11.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom[0m
@@ -17,7 +17,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.1!scala-library.pom(pom.original) (443ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.1!scala-library.pom(pom.original) (397ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/rumtscho/.ivy2/local/org.scala-lang/scala-library/2.11.1/jars/scala-library.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in public[0m
@@ -65,7 +65,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.1!scala-reflect.pom(pom.original) (393ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.1!scala-reflect.pom(pom.original) (449ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/rumtscho/.ivy2/local/org.scala-lang/scala-reflect/2.11.1/jars/scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.1 in public[0m
@@ -1364,7 +1364,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->master][0m
 [0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-xml_2.11;1.0.2->...[0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/rumtscho/git/Tervel3/target/resolution-cache/org.rumtscho/litsuche25_2.11/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/rumtscho/git/litsuche25/target/resolution-cache/org.rumtscho/litsuche25_2.11/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.1!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-webkit_2.11;2.6-RC1!lift-webkit_2.11.jar[0m
@@ -1398,20 +1398,20 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.7.v20120910!jetty-http.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.7.v20120910!jetty-io.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3063ms :: artifacts dl 33ms[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT compile produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT runtime produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT test produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT provided produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT optional produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT compile-internal produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT runtime-internal produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT test-internal produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT plugin produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT sources produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT docs produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT pom produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT scala-tool produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT container produced in /home/rumtscho/git/Tervel3/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-container.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (3063ms resolve - 33ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2106ms :: artifacts dl 21ms[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT compile produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT runtime produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT test produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT provided produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT optional produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT compile-internal produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT runtime-internal produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT test-internal produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT plugin produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT sources produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT docs produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT pom produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT scala-tool produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT container produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-container.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2106ms resolve - 21ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

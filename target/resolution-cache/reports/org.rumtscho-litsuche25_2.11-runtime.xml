@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container"
-		date="20150204195554"/>
+		date="20150206173720"/>
 	<dependencies>
 		<module organisation="org.eclipse.jetty.orbit" name="javax.servlet">
 			<revision name="3.0.0.v201112011016" status="release" pubdate="20111207204915" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="21">
@@ -265,7 +265,7 @@
 		<module organisation="org.scala-lang" name="scala-reflect">
 			<revision name="2.11.1" status="release" pubdate="20140520100246" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="successful" details="" size="1568" time="393" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml" searched="true" original-local-location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
+				<metadata-artifact status="successful" details="" size="1568" time="449" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml" searched="true" original-local-location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
 				<artifacts>
 					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4372892" time="0" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.1.jar">
@@ -277,7 +277,7 @@
 		<module organisation="org.scala-lang" name="scala-library">
 			<revision name="2.11.1" status="release" pubdate="20140520100221" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="successful" details="" size="1424" time="443" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.1.xml" searched="true" original-local-location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom"/>
+				<metadata-artifact status="successful" details="" size="1424" time="397" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.1.xml" searched="true" original-local-location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom"/>
 				<caller organisation="net.liftweb" name="lift-json_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
 				<caller organisation="org.rumtscho" name="litsuche25_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.1-SNAPSHOT"/>
 				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
