@@ -3,3 +3,5 @@ containter:start
 container:start
 eclipse
 ~; container:start; container:reload /
+container:start
+exit

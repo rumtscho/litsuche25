@@ -14,7 +14,8 @@ class Boot {
 
     // Build SiteMap
     def sitemap(): SiteMap = SiteMap(
-      Menu.i("Home") / "index"
+      Menu.i("Home") / "index", 
+      Menu.i("List studies") / "studies"
     )
 
     // Use HTML5 for rendering
