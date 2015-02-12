@@ -5,3 +5,10 @@ class Study(val id: Int = -1,
 {
 
 }
+
+object Study {
+  val allStudies = List(
+		  new Study(1, "Brooks1975"), 
+		  new Study(2, "Dijkstra1968")
+      )
+}

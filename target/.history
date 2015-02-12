@@ -5,3 +5,16 @@ eclipse
 ~; container:start; container:reload /
 container:start
 exit
+container:start
+exit
+container:start
+~; container:start; container:reload /
+exit
+~; container:start; container:reload /
+sbt
+exit
+~; container:start; container:reload /
+exit
+container:start
+exit
+~; container:start; container:reload /
