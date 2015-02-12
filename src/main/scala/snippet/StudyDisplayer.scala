@@ -1,7 +1,7 @@
 package code 
 package snippet
 
-import org.rumtscho.litsuche._
+import org.rumtscho.litsuche.study._
 import net.liftweb.util.BindHelpers._
 import xml.Text
 
@@ -13,7 +13,8 @@ object StudyDisplayer {
 	  "li *" #> theStudies.map {
 	    s => 
 	      ".id *" #> Text(s.id.toString) & 
-	      ".handmadeRef *" #> Text(s.handmadeAuthorRef)
+	      ".handmadeRef *" #> Text(s.handmadeAuthorRef) & 
+	      ".description *" #> Text(s.humanReadableDescription)
 	  }
 	}
 }

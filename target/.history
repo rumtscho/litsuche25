@@ -18,3 +18,8 @@ exit
 container:start
 exit
 ~; container:start; container:reload /
+exit
+~; container:start; container:reload /
+sbt
+exit
+container:start
