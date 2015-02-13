@@ -2,15 +2,29 @@ package code.snippet
 
 import net.liftweb.http._
 import org.rumtscho.litsuche.study._
+import net.liftweb._
+import http._
+import util.BindHelpers._
+import js.JsCmds
 
-class AddStudyForm extends LiftScreen {
+import net.liftweb.http.SHtml.{text,ajaxSubmit}
+
+class AddStudyForm {
   
-  val reference = field("Reference", "", "placeholder" -> "Format: LastnameYYYY")
-  val description = field("Description", "", "placeholder" -> "A human readable description of the paper")
-  
-  protected def finish() {
-    S.notice("form submitted")
-    Study.addStudy(reference, description)
+  def form = {
+    var reference = ""
+    var description = ""
+      
+      def process() = {
+      Study.addStudy(reference, description)
+    
+    
+    JsCmds.Alert("Study created. Reference was " + reference + " and description was " + description) & 
+    JsCmds.SetValById("reference", "") &
+    JsCmds.SetValById("description", "")
   }
-
+    
+    "#reference" #> SHtml.text(reference, reference = _, "id" -> "reference") & 
+    "#description" #> (SHtml.textarea(description, description = _, "id" -> "description") ++ SHtml.hidden(process))
+  }
 }

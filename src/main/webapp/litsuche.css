@@ -1,0 +1,11 @@
+body {
+	font-size: 16px;
+}
+
+nav > a {
+	display: block;
+}
+
+nav {
+	margin-bottom: 1em;
+}
