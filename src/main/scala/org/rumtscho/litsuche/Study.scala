@@ -11,13 +11,15 @@ class Study private[study](
 }
 
 object Study {
+  
+  private var currentId = 0
+  
   val seedStudies = List(
 		  new Study(dispenseNextFreeId, "Brooks1975", "Tells us that throwing more programmers at a project makes it run late, not early"), 
 		  new Study(dispenseNextFreeId, "Dijkstra1968", "Recognizes that we need structured code")
       )
       
    private var studiesList = seedStudies.to[ListBuffer]
-   private var currentId = 0
    
    
    private def dispenseNextFreeId: Int = {
