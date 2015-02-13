@@ -7,8 +7,59 @@
 		revision="0.1-SNAPSHOT"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container"
-		date="20150206173720"/>
+		date="20150213155618"/>
 	<dependencies>
+		<module organisation="postgresql" name="postgresql">
+			<revision name="9.1-901-1.jdbc4" status="release" pubdate="20111219005532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jdbc.postgresql.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="25">
+				<license name="BSD License" url="http://jdbc.postgresql.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2351" time="0" location="/home/rumtscho/.ivy2/cache/postgresql/postgresql/ivy-9.1-901-1.jdbc4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.pom"/>
+				<caller organisation="org.rumtscho" name="litsuche25_2.11" conf="compile" rev="9.1-901-1.jdbc4" rev-constraint-default="9.1-901-1.jdbc4" rev-constraint-dynamic="9.1-901-1.jdbc4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="postgresql" type="jar" ext="jar" status="no" details="" size="551290" time="0" location="/home/rumtscho/.ivy2/cache/postgresql/postgresql/jars/postgresql-9.1-901-1.jdbc4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-mapper_2.11">
+			<revision name="2.6-RC1" status="release" pubdate="20140730043741" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="22">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3488" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-mapper_2.11/ivy-2.6-RC1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-mapper_2.11/2.6-RC1/lift-mapper_2.11-2.6-RC1.pom"/>
+				<caller organisation="org.rumtscho" name="litsuche25_2.11" conf="compile" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lift-mapper_2.11" type="jar" ext="jar" status="no" details="" size="1383847" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-mapper_2.11/jars/lift-mapper_2.11-2.6-RC1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/liftweb/lift-mapper_2.11/2.6-RC1/lift-mapper_2.11-2.6-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-proto_2.11">
+			<revision name="2.6-RC1" status="release" pubdate="20140730043752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="24">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3123" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-proto_2.11/ivy-2.6-RC1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-proto_2.11/2.6-RC1/lift-proto_2.11-2.6-RC1.pom"/>
+				<caller organisation="net.liftweb" name="lift-mapper_2.11" conf="default, compile, runtime, master" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="2.6-RC1"/>
+				<artifacts>
+					<artifact name="lift-proto_2.11" type="jar" ext="jar" status="no" details="" size="230355" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-proto_2.11/jars/lift-proto_2.11-2.6-RC1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/liftweb/lift-proto_2.11/2.6-RC1/lift-proto_2.11-2.6-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-db_2.11">
+			<revision name="2.6-RC1" status="release" pubdate="20140730043635" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="23">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3366" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-db_2.11/ivy-2.6-RC1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-db_2.11/2.6-RC1/lift-db_2.11-2.6-RC1.pom"/>
+				<caller organisation="net.liftweb" name="lift-mapper_2.11" conf="default, compile, runtime, master" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="2.6-RC1"/>
+				<artifacts>
+					<artifact name="lift-db_2.11" type="jar" ext="jar" status="no" details="" size="312737" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-db_2.11/jars/lift-db_2.11-2.6-RC1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/liftweb/lift-db_2.11/2.6-RC1/lift-db_2.11-2.6-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.eclipse.jetty.orbit" name="javax.servlet">
 			<revision name="3.0.0.v201112011016" status="release" pubdate="20111207204915" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="21">
 				<metadata-artifact status="no" details="" size="3070" time="0" location="/home/rumtscho/.ivy2/cache/org.eclipse.jetty.orbit/javax.servlet/ivy-3.0.0.v201112011016.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom"/>
@@ -21,11 +72,13 @@
 			</revision>
 		</module>
 		<module organisation="net.liftweb" name="lift-webkit_2.11">
-			<revision name="2.6-RC1" status="release" pubdate="20140730043920" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+			<revision name="2.6-RC1" status="release" pubdate="20140730043920" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="1">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3923" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-webkit_2.11/ivy-2.6-RC1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-webkit_2.11/2.6-RC1/lift-webkit_2.11-2.6-RC1.pom"/>
 				<caller organisation="org.rumtscho" name="litsuche25_2.11" conf="compile" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="net.liftweb" name="lift-db_2.11" conf="compile, runtime" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="2.6-RC1"/>
+				<caller organisation="net.liftweb" name="lift-proto_2.11" conf="compile, runtime" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="2.6-RC1"/>
 				<artifacts>
 					<artifact name="lift-webkit_2.11" type="jar" ext="jar" status="no" details="" size="5756980" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-webkit_2.11/jars/lift-webkit_2.11-2.6-RC1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/liftweb/lift-webkit_2.11/2.6-RC1/lift-webkit_2.11-2.6-RC1.jar"/>
@@ -49,6 +102,7 @@
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4349" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-util_2.11/ivy-2.6-RC1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-util_2.11/2.6-RC1/lift-util_2.11-2.6-RC1.pom"/>
+				<caller organisation="net.liftweb" name="lift-db_2.11" conf="compile, runtime" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="2.6-RC1"/>
 				<caller organisation="net.liftweb" name="lift-webkit_2.11" conf="default, compile, runtime, master" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="2.6-RC1"/>
 				<artifacts>
 					<artifact name="lift-util_2.11" type="jar" ext="jar" status="no" details="" size="1739308" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-util_2.11/jars/lift-util_2.11-2.6-RC1.jar">
@@ -265,7 +319,7 @@
 		<module organisation="org.scala-lang" name="scala-reflect">
 			<revision name="2.11.1" status="release" pubdate="20140520100246" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="successful" details="" size="1568" time="449" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml" searched="true" original-local-location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
+				<metadata-artifact status="successful" details="" size="1568" time="341" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml" searched="true" original-local-location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
 				<artifacts>
 					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4372892" time="0" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.1.jar">
@@ -277,18 +331,21 @@
 		<module organisation="org.scala-lang" name="scala-library">
 			<revision name="2.11.1" status="release" pubdate="20140520100221" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="successful" details="" size="1424" time="397" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.1.xml" searched="true" original-local-location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom"/>
-				<caller organisation="net.liftweb" name="lift-json_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
+				<metadata-artifact status="successful" details="" size="1424" time="346" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.1.xml" searched="true" original-local-location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom"/>
 				<caller organisation="org.rumtscho" name="litsuche25_2.11" conf="compile" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.1-SNAPSHOT"/>
-				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
 				<caller organisation="net.liftweb" name="lift-util_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
-				<caller organisation="net.liftweb" name="lift-markdown_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
-				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.0.2"/>
-				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
+				<caller organisation="net.liftweb" name="lift-actor_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
+				<caller organisation="net.liftweb" name="lift-json_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
+				<caller organisation="net.liftweb" name="lift-db_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
+				<caller organisation="net.liftweb" name="lift-proto_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.0.2"/>
+				<caller organisation="net.liftweb" name="lift-markdown_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
 				<caller organisation="net.liftweb" name="lift-webkit_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
 				<caller organisation="net.liftweb" name="lift-common_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
-				<caller organisation="net.liftweb" name="lift-actor_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
+				<caller organisation="net.liftweb" name="lift-mapper_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5538130" time="0" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"/>

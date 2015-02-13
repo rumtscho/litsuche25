@@ -24,3 +24,7 @@ sbt
 exit
 container:start
 ~; container:start; container:reload /
+exit
+update
+container.start;
+~; container:start; container:reload /

@@ -15,6 +15,8 @@ libraryDependencies ++= {
     "org.eclipse.jetty" % "jetty-webapp" % "8.1.7.v20120910"  %
       "container,test",
     "org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016" %
-      "container,compile" artifacts Artifact("javax.servlet", "jar", "jar")
+      "container,compile" artifacts Artifact("javax.servlet", "jar", "jar"), 
+    "net.liftweb" %% "lift-mapper" % liftVersion % "compile", 
+    "postgresql" % "postgresql" % "9.1-901-1.jdbc4"
   )
 }

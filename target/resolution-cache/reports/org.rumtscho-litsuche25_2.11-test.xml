@@ -7,10 +7,10 @@
 		revision="0.1-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container"
-		date="20150206173720"/>
+		date="20150213155618"/>
 	<dependencies>
 		<module organisation="org.eclipse.jetty" name="jetty-webapp">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910211310" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="22">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910211310" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="26">
 				<metadata-artifact status="no" details="" size="8516" time="0" location="/home/rumtscho/.ivy2/cache/org.eclipse.jetty/jetty-webapp/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/8.1.7.v20120910/jetty-webapp-8.1.7.v20120910.pom"/>
 				<caller organisation="org.rumtscho" name="litsuche25_2.11" conf="test, compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
@@ -21,7 +21,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-servlet">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210853" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="25">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210853" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="29">
 				<metadata-artifact status="no" details="" size="8345" time="0" location="/home/rumtscho/.ivy2/cache/org.eclipse.jetty/jetty-servlet/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.7.v20120910/jetty-servlet-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="default, compile, runtime, master" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -32,7 +32,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-security">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210833" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="26">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210833" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="30">
 				<metadata-artifact status="no" details="" size="8242" time="0" location="/home/rumtscho/.ivy2/cache/org.eclipse.jetty/jetty-security/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/8.1.7.v20120910/jetty-security-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-servlet" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -43,7 +43,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-server">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210755" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="27">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210755" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="31">
 				<metadata-artifact status="no" details="" size="8834" time="0" location="/home/rumtscho/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.7.v20120910/jetty-server-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-security" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -54,7 +54,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-http">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210402" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="29">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210402" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="33">
 				<metadata-artifact status="no" details="" size="8292" time="0" location="/home/rumtscho/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.7.v20120910/jetty-http-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -65,7 +65,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-io">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210343" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="30">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210343" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="34">
 				<metadata-artifact status="no" details="" size="8155" time="0" location="/home/rumtscho/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.7.v20120910/jetty-io-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-http" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -76,7 +76,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-continuation">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210419" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="28">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210419" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="32">
 				<metadata-artifact status="no" details="" size="8247" time="0" location="/home/rumtscho/.ivy2/cache/org.eclipse.jetty/jetty-continuation/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.7.v20120910/jetty-continuation-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -87,7 +87,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-xml">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910211248" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="23">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910211248" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="27">
 				<metadata-artifact status="no" details="" size="8166" time="0" location="/home/rumtscho/.ivy2/cache/org.eclipse.jetty/jetty-xml/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/8.1.7.v20120910/jetty-xml-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="default, compile, runtime, master" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -98,13 +98,64 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-util">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210238" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="24">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210238" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="28">
 				<metadata-artifact status="no" details="" size="8520" time="0" location="/home/rumtscho/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.7.v20120910/jetty-util-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-xml" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-io" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
 					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="279588" time="0" location="/home/rumtscho/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-8.1.7.v20120910.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.7.v20120910/jetty-util-8.1.7.v20120910.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="postgresql" name="postgresql">
+			<revision name="9.1-901-1.jdbc4" status="release" pubdate="20111219005532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jdbc.postgresql.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="25">
+				<license name="BSD License" url="http://jdbc.postgresql.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2351" time="0" location="/home/rumtscho/.ivy2/cache/postgresql/postgresql/ivy-9.1-901-1.jdbc4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.pom"/>
+				<caller organisation="org.rumtscho" name="litsuche25_2.11" conf="test, compile, runtime" rev="9.1-901-1.jdbc4" rev-constraint-default="9.1-901-1.jdbc4" rev-constraint-dynamic="9.1-901-1.jdbc4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="postgresql" type="jar" ext="jar" status="no" details="" size="551290" time="0" location="/home/rumtscho/.ivy2/cache/postgresql/postgresql/jars/postgresql-9.1-901-1.jdbc4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-mapper_2.11">
+			<revision name="2.6-RC1" status="release" pubdate="20140730043741" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="22">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3488" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-mapper_2.11/ivy-2.6-RC1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-mapper_2.11/2.6-RC1/lift-mapper_2.11-2.6-RC1.pom"/>
+				<caller organisation="org.rumtscho" name="litsuche25_2.11" conf="test, compile, runtime" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lift-mapper_2.11" type="jar" ext="jar" status="no" details="" size="1383847" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-mapper_2.11/jars/lift-mapper_2.11-2.6-RC1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/liftweb/lift-mapper_2.11/2.6-RC1/lift-mapper_2.11-2.6-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-proto_2.11">
+			<revision name="2.6-RC1" status="release" pubdate="20140730043752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="24">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3123" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-proto_2.11/ivy-2.6-RC1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-proto_2.11/2.6-RC1/lift-proto_2.11-2.6-RC1.pom"/>
+				<caller organisation="net.liftweb" name="lift-mapper_2.11" conf="default, compile, runtime, master" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="2.6-RC1"/>
+				<artifacts>
+					<artifact name="lift-proto_2.11" type="jar" ext="jar" status="no" details="" size="230355" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-proto_2.11/jars/lift-proto_2.11-2.6-RC1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/liftweb/lift-proto_2.11/2.6-RC1/lift-proto_2.11-2.6-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-db_2.11">
+			<revision name="2.6-RC1" status="release" pubdate="20140730043635" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="23">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3366" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-db_2.11/ivy-2.6-RC1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-db_2.11/2.6-RC1/lift-db_2.11-2.6-RC1.pom"/>
+				<caller organisation="net.liftweb" name="lift-mapper_2.11" conf="default, compile, runtime, master" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="2.6-RC1"/>
+				<artifacts>
+					<artifact name="lift-db_2.11" type="jar" ext="jar" status="no" details="" size="312737" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-db_2.11/jars/lift-db_2.11-2.6-RC1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/liftweb/lift-db_2.11/2.6-RC1/lift-db_2.11-2.6-RC1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -122,11 +173,13 @@
 			</revision>
 		</module>
 		<module organisation="net.liftweb" name="lift-webkit_2.11">
-			<revision name="2.6-RC1" status="release" pubdate="20140730043920" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+			<revision name="2.6-RC1" status="release" pubdate="20140730043920" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="1">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3923" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-webkit_2.11/ivy-2.6-RC1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-webkit_2.11/2.6-RC1/lift-webkit_2.11-2.6-RC1.pom"/>
 				<caller organisation="org.rumtscho" name="litsuche25_2.11" conf="test, compile, runtime" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="net.liftweb" name="lift-db_2.11" conf="compile, runtime" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="2.6-RC1"/>
+				<caller organisation="net.liftweb" name="lift-proto_2.11" conf="compile, runtime" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="2.6-RC1"/>
 				<artifacts>
 					<artifact name="lift-webkit_2.11" type="jar" ext="jar" status="no" details="" size="5756980" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-webkit_2.11/jars/lift-webkit_2.11-2.6-RC1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/liftweb/lift-webkit_2.11/2.6-RC1/lift-webkit_2.11-2.6-RC1.jar"/>
@@ -150,6 +203,7 @@
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4349" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-util_2.11/ivy-2.6-RC1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-util_2.11/2.6-RC1/lift-util_2.11-2.6-RC1.pom"/>
+				<caller organisation="net.liftweb" name="lift-db_2.11" conf="compile, runtime" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="2.6-RC1"/>
 				<caller organisation="net.liftweb" name="lift-webkit_2.11" conf="default, compile, runtime, master" rev="2.6-RC1" rev-constraint-default="2.6-RC1" rev-constraint-dynamic="2.6-RC1" callerrev="2.6-RC1"/>
 				<artifacts>
 					<artifact name="lift-util_2.11" type="jar" ext="jar" status="no" details="" size="1739308" time="0" location="/home/rumtscho/.ivy2/cache/net.liftweb/lift-util_2.11/jars/lift-util_2.11-2.6-RC1.jar">
@@ -366,7 +420,7 @@
 		<module organisation="org.scala-lang" name="scala-reflect">
 			<revision name="2.11.1" status="release" pubdate="20140520100246" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="successful" details="" size="1568" time="449" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml" searched="true" original-local-location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
+				<metadata-artifact status="successful" details="" size="1568" time="341" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml" searched="true" original-local-location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
 				<artifacts>
 					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4372892" time="0" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.1.jar">
@@ -378,18 +432,21 @@
 		<module organisation="org.scala-lang" name="scala-library">
 			<revision name="2.11.1" status="release" pubdate="20140520100221" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="successful" details="" size="1424" time="397" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.1.xml" searched="true" original-local-location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom"/>
-				<caller organisation="net.liftweb" name="lift-json_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
+				<metadata-artifact status="successful" details="" size="1424" time="346" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.1.xml" searched="true" original-local-location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom"/>
 				<caller organisation="org.rumtscho" name="litsuche25_2.11" conf="test, compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.1-SNAPSHOT"/>
-				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
 				<caller organisation="net.liftweb" name="lift-util_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
-				<caller organisation="net.liftweb" name="lift-markdown_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
-				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.0.2"/>
-				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
+				<caller organisation="net.liftweb" name="lift-actor_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
+				<caller organisation="net.liftweb" name="lift-json_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
+				<caller organisation="net.liftweb" name="lift-db_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
+				<caller organisation="net.liftweb" name="lift-proto_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.0.2"/>
+				<caller organisation="net.liftweb" name="lift-markdown_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
 				<caller organisation="net.liftweb" name="lift-webkit_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
 				<caller organisation="net.liftweb" name="lift-common_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
-				<caller organisation="net.liftweb" name="lift-actor_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
+				<caller organisation="net.liftweb" name="lift-mapper_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.6-RC1"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5538130" time="0" location="/home/rumtscho/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"/>

@@ -1,0 +1,4 @@
+db.driver=org.postgresql.Driver
+db.url=jdbc:postgresql:liftbook
+db.user=litsuche
+db.password=kitchenham
