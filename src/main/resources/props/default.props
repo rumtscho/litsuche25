@@ -1,4 +1,4 @@
 db.driver=org.postgresql.Driver
-db.url=jdbc:postgresql:liftbook
+db.url=jdbc:postgresql://localhost:5432/Litsuche25
 db.user=litsuche
 db.password=kitchenham

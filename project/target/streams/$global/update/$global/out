@@ -23,7 +23,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.7.0/xsbt-web-plugin-0.7.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.7.0/xsbt-web-plugin-0.7.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.7.0/xsbt-web-plugin-0.7.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.earldouglas#xsbt-web-plugin;0.7.0!xsbt-web-plugin.pom(pom.original) (423ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.earldouglas#xsbt-web-plugin;0.7.0!xsbt-web-plugin.pom(pom.original) (409ms)[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.earldouglas/xsbt-web-plugin/0.7.0/jars/xsbt-web-plugin.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.earldouglas/xsbt-web-plugin/0.7.0/jars/xsbt-web-plugin.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.earldouglas/xsbt-web-plugin/0.7.0/jars/xsbt-web-plugin.jar[0m
@@ -190,7 +190,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-annotations/9.1.0.v20131115/jetty-annotations-9.1.0.v20131115.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-annotations/9.1.0.v20131115/jetty-annotations-9.1.0.v20131115.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-annotations/9.1.0.v20131115/jetty-annotations-9.1.0.v20131115.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty#jetty-annotations;9.1.0.v20131115!jetty-annotations.pom(pom.original) (667ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty#jetty-annotations;9.1.0.v20131115!jetty-annotations.pom(pom.original) (408ms)[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-project;9.1.0.v20131115 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;9.1.0.v20131115 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;9.1.0.v20131115[0m
@@ -709,7 +709,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#litsuche25-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#litsuche25-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@211fa5fb[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6536c16e[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -2533,7 +2533,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.1!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6018ms :: artifacts dl 76ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8018ms :: artifacts dl 66ms[0m
 [0m[[0mdebug[0m] [0m	report for default#litsuche25-build;0.1-SNAPSHOT compile produced in /home/rumtscho/git/litsuche25/project/target/resolution-cache/reports/default-litsuche25-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#litsuche25-build;0.1-SNAPSHOT runtime produced in /home/rumtscho/git/litsuche25/project/target/resolution-cache/reports/default-litsuche25-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#litsuche25-build;0.1-SNAPSHOT test produced in /home/rumtscho/git/litsuche25/project/target/resolution-cache/reports/default-litsuche25-build-test.xml[0m
@@ -2547,5 +2547,5 @@
 [0m[[0mdebug[0m] [0m	report for default#litsuche25-build;0.1-SNAPSHOT docs produced in /home/rumtscho/git/litsuche25/project/target/resolution-cache/reports/default-litsuche25-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#litsuche25-build;0.1-SNAPSHOT pom produced in /home/rumtscho/git/litsuche25/project/target/resolution-cache/reports/default-litsuche25-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#litsuche25-build;0.1-SNAPSHOT scala-tool produced in /home/rumtscho/git/litsuche25/project/target/resolution-cache/reports/default-litsuche25-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (6018ms resolve - 76ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (8018ms resolve - 66ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -24,20 +24,23 @@ class Boot {
 
     // where to search snippet
     LiftRules.addToPackages("code")
+    
+    //Open a database connection
+    configureDB()
   }
 
+  
     def configureDB() {
-      for {
-        driver <- Props.get("db.driver")
-        url <- Props.get("db.url")
-      }
-      yield 
-      {
-      	val standardVendor = new StandardDbVendor(driver, url, Props.get("db.user"), Props.get("db.password"))
-      }
+    
+      val standardVendor = new StandardDBVendor(
+          Props.get("db.driver").openOr("org.postgresql.Driver"), 
+          Props.get("db.url").openOr("jdbc:postgresql://localhost/travel"), 
+          Props.get("db.user"), 
+          Props.get("db.password"))
+      
       
       LiftRules.unloadHooks.append(standardVendor.closeAllConnections_!_)
-      DB.defineConnectionManager(DefaultConnectionIdentifier, standardVendor)
+      DB.defineConnectionManager(net.liftweb.util.DefaultConnectionIdentifier, standardVendor)
     }
     
 }

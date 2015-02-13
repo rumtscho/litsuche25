@@ -28,3 +28,4 @@ exit
 update
 container.start;
 ~; container:start; container:reload /
+eclipse

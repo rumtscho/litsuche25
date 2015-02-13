@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bbdc0b8[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@776e12dc[0m
 [0m[[0mdebug[0m] [0m		tried /home/rumtscho/.ivy2/local/org.scala-lang/scala-library/2.11.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom[0m
@@ -17,7 +17,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.1!scala-library.pom(pom.original) (346ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.1!scala-library.pom(pom.original) (335ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/rumtscho/.ivy2/local/org.scala-lang/scala-library/2.11.1/jars/scala-library.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in public[0m
@@ -65,7 +65,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.1!scala-reflect.pom(pom.original) (341ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.1!scala-reflect.pom(pom.original) (333ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/rumtscho/.ivy2/local/org.scala-lang/scala-reflect/2.11.1/jars/scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.1 in public[0m
@@ -1665,7 +1665,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.7.v20120910!jetty-http.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.7.v20120910!jetty-io.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1727ms :: artifacts dl 21ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1660ms :: artifacts dl 16ms[0m
 [0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT compile produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT runtime produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT test produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-test.xml[0m
@@ -1680,5 +1680,5 @@
 [0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT pom produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT scala-tool produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-scala-tool.xml[0m
 [0m[[0mdebug[0m] [0m	report for org.rumtscho#litsuche25_2.11;0.1-SNAPSHOT container produced in /home/rumtscho/git/litsuche25/target/resolution-cache/reports/org.rumtscho-litsuche25_2.11-container.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1727ms resolve - 21ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1660ms resolve - 16ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
