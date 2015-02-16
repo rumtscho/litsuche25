@@ -29,3 +29,4 @@ update
 container.start;
 ~; container:start; container:reload /
 eclipse
+~; container:start; container:reload /

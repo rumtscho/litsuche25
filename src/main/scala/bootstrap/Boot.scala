@@ -4,6 +4,8 @@ import net.liftweb.http.{ Html5Properties, LiftRules, Req }
 import net.liftweb.sitemap.{ Menu, SiteMap }
 import net.liftweb.mapper._
 import net.liftweb.util._
+import org.rumtscho.litsuche.study
+
 /**
  * A class that's instantiated early and run.  It allows the application
  * to modify lift's environment
@@ -27,6 +29,8 @@ class Boot {
     
     //Open a database connection
     configureDB()
+    
+    Schemifier.schemify(true, Schemifier.infoF _, org.rumtscho.litsuche.study.Study)
   }
 
   
