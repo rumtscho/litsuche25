@@ -8,14 +8,11 @@ import xml.Text
 object StudyDisplayer {
 
   def showStudies = {
-    val theStudies = Study.allStudies
+    val theStudies = Study.findAll
 
     "li *" #> theStudies.map {
       s =>
-//        ".id *" #> Text(s.id.toString) &
-//          ".handmadeRef *" #> Text(s.handmadeAuthorRef) &
-//          ".description *" #> Text(s.humanReadableDescription)
-        ".id *" #> Text("no more IDs") &
+        ".id *" #> Text(s.id.toString) &
         ".handmadeRef *" #> Text(s.reference) & 
         ".description *" #> Text(s.description)
     }

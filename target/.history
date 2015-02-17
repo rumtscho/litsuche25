@@ -30,3 +30,11 @@ container.start;
 ~; container:start; container:reload /
 eclipse
 ~; container:start; container:reload /
+import bootstrap.liftweb._
+exit
+console
+~; container:start; container:reload /
+exit
+~; container:start; container:reload /
+console
+~; container:start; container:reload /

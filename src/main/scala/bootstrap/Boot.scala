@@ -18,7 +18,8 @@ class Boot {
     // Build SiteMap
     def sitemap(): SiteMap = SiteMap(
       Menu.i("Home") / "index",
-      Menu.i("List studies") / "studies")
+      Menu.i("List studies") / "studies", 
+      Menu.i("Temporary page") / "scratchpad")
 
     // Use HTML5 for rendering
     LiftRules.htmlProperties.default.set((r: Req) =>
