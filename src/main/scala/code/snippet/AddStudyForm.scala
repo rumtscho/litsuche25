@@ -1,7 +1,7 @@
 package code.snippet
 
 import net.liftweb.http._
-import org.rumtscho.litsuche.study.Study
+import org.rumtscho.litsuche._
 import net.liftweb._
 import http._
 import util.BindHelpers._
@@ -33,7 +33,7 @@ class AddStudyForm {
   
   
   
-    
+    //used only for trying out things in the scratchpad. Remove from the real application. 
     def showTwoStudies_!(){
       Study.findAll().map(_.delete_!)
       val studyData = ("Brooks1975", "Tells us that we cannot make a project finish sooner if we throw more programmers at it")::("Dijkstra1968", "Recongizes that we need well structured code")::Nil
@@ -43,12 +43,14 @@ class AddStudyForm {
       }
     }
   
+    //used only for trying out things in the scratchpad. Remove from the real application. 
    def list = {
 	    "li *" #> Study.findAll().map {
 	      s => s.reference.get
 	    }
     }
    
+    //used only for trying out things in the scratchpad. Remove from the real application. 
    def replaceLis = {
      val list = "apples"::"oranges"::"peaches"::Nil
      

@@ -1,7 +1,7 @@
 package code
 package snippet
 
-import org.rumtscho.litsuche.study._
+import org.rumtscho.litsuche._
 import net.liftweb.util.BindHelpers._
 import xml.Text
 

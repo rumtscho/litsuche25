@@ -4,7 +4,7 @@ import net.liftweb.http.{ Html5Properties, LiftRules, Req }
 import net.liftweb.sitemap.{ Menu, SiteMap }
 import net.liftweb.mapper._
 import net.liftweb.util._
-import org.rumtscho.litsuche.study
+import org.rumtscho.litsuche._
 
 /**
  * A class that's instantiated early and run.  It allows the application
@@ -31,7 +31,12 @@ class Boot {
     //Open a database connection
     configureDB()
     
-    Schemifier.schemify(true, Schemifier.infoF _, org.rumtscho.litsuche.study.Study)
+    Schemifier.schemify(
+        true, 
+        Schemifier.infoF _, 
+        Study, 
+        VariableAppearance
+    )
   }
 
   

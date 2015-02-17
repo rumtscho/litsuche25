@@ -1,27 +1,17 @@
 package org.rumtscho.litsuche
-package variable
+//package variable
 
 import scala.collection.mutable.ListBuffer
+import net.liftweb.mapper._
+//import org.rumtscho.litsuche.study._
 
-class VariableAppearance(
-  val varId: Int,
-  val varName: String,
-  val studyId: Int) {
-
+class VariableAppearance extends LongKeyedMapper[VariableAppearance] with IdPK {
+	def getSingleton = VariableAppearance
+	
+	object authorName extends MappedString(this, 255)
+	object study extends MappedLongForeignKey(this, Study)
 }
 
-object VariableAppearance {
-  private var variablesAppearancesList = new ListBuffer[VariableAppearance]
-  private var currentId = 0
+object VariableAppearance extends VariableAppearance with LongKeyedMetaMapper[VariableAppearance] {
 
-  private def dispenseNextFreeId: Int = {
-    currentId = currentId + 1
-    return currentId
-  }
-
-  def allVariableAppearances = variablesAppearancesList.toList
-
-  def addVariableAppearance(name: String, studyId: Int) = {
-    variablesAppearancesList += new VariableAppearance(dispenseNextFreeId, name, studyId)
-  }
 }
