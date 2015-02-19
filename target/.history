@@ -38,3 +38,11 @@ exit
 ~; container:start; container:reload /
 console
 ~; container:start; container:reload /
+exit
+~; container:start; container:reload /
+exit
+~; container:start; container:reload /
+exit
+~; container:start; container:reload /
+exit
+~; container:start; container:reload /
