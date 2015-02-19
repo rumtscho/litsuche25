@@ -19,10 +19,14 @@ class Study
 }
 
 object Study extends Study with LongKeyedMetaMapper[Study]{
-	def findByIdAsString(id: String): Box[Study] = {
+	def findByIdAsStringOrCreate(id: String): Box[Study] = {
 	  try {
 	    val longId = id.toLong
-	    return findByKey(longId)
+	    val study = longId match {
+	      case x if x < 0 =>  Full(Study.create)
+	      case _ => findByKey(longId)
+	    }
+	    return study
 	  }
 	  catch {
 	    case e: Exception => return Failure("String is not a valid ID")

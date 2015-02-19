@@ -2,6 +2,7 @@
   <head>
     <title></title>
     <meta content="">
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="litsuche.css">
   </head>
   <body>
@@ -9,7 +10,20 @@
       <span data-lift="Menu.builder"></span>
     </nav>
     <div data-lift="StudyDisplayer">
-    	<h1>Editing the study <span id="reference"></span></h1>
+    	<h1>Editing the study <span id="referenceFirm"></span></h1>
+		<form class="lift:form.ajax">
+			<div class="lift:StudyDisplayer.form">
+				<div>
+					<label for="reference">Reference</label>
+					<input type="text" id="reference"/>
+				</div>
+				<div>
+					<label for="description">Description</label>
+					<textarea id="description" cols="10" rows="8"></textarea>
+				</div>
+				<input type="submit" value="Submit"/>
+			</div>
+		</form>
     </div>
   </body>
 </html>
