@@ -32,4 +32,9 @@ object Study extends Study with LongKeyedMetaMapper[Study]{
 	    case e: Exception => return Failure("String is not a valid ID")
 	  }
 	}
+	
+	def cleanup(study: Study): Study = {
+	  for(va <- study.variableAppearances if va.authorName.isEmpty()) study.variableAppearances -= va
+	  return study
+	}
 }

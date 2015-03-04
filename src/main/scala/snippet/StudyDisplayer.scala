@@ -44,19 +44,23 @@ class StudyDisplayer(study: Study) {
     def saveStudy() = {
       study.reference.set(reference)
       study.description.set(description)
-      
+      Study.cleanup(study)
       study.save
+
       
       
-      
-      JsCmds.Alert("Study created. Reference was " + reference + " and description was " + description) &
+      JsCmds.Alert("Study created/edited. Reference was " + reference + " and description was " + description) &
         JsCmds.SetValById("reference", "") &
         JsCmds.SetValById("description", "")
     }
 
     "#reference" #> SHtml.text(reference, reference = _, "id" -> "reference") &
-      "#description" #> (SHtml.textarea(description, description = _, "id" -> "description") ++ SHtml.hidden(saveStudy))
-    
+      "#description" #> SHtml.textarea(description, description = _, "id" -> "description")  &
+      ".variableAppearance *" #> {
+    	  study.variableAppearances += VariableAppearance.create
+    	  (study.variableAppearances.map(va => 
+        SHtml.text(va.authorName, va.authorName.set(_), "id" -> "authorName")) ++ SHtml.hidden(saveStudy))
+      }
    
   }
 }
